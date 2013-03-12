@@ -1,0 +1,10 @@
+.container > .row > .span12 > nav { outline: 1px solid #ff0000; }
+.menu ul { margin: 0; }
+.menu > ul { background: #444; color: #fff; position: relative; }
+.menu > ul > li { float: left; padding: 0 10px; position: relative; background: #ccc; color: #fff; }
+.menu > ul > li:last-child { float: right; }
+.menu > ul > li.full { position: static; }
+.menu > ul > li.full > ul { width: 100%; border: 10px solid black; }
+.menu > ul > li > ul { position: absolute; background: red; margin: 0; left: 0; }
+
+.menu > ul > li:last-child > ul { width: 400px; }
